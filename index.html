@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NEXORA AI — Intelligence. Beyond Limits. Transforming the future with next-generation artificial intelligence, deep learning models, and autonomous cognitive systems.">
+  <meta name="theme-color" content="#070B14">
+  <title>NEXORA AI | Intelligence. Beyond Limits.</title>
+
+  <!-- Google Fonts: Space Grotesk, Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="cyber-dark">
+
+  <!-- Ambient Holographic Glow Canvas -->
+  <div class="ambient-glow-wrapper" aria-hidden="true">
+    <div class="ambient-blob blob-blue"></div>
+    <div class="ambient-blob blob-violet"></div>
+    <div class="ambient-blob blob-cyan"></div>
+    <div class="cyber-grid-overlay"></div>
+  </div>
+
+  <!-- Top System Status Strip -->
+  <div class="system-status-bar">
+    <div class="container status-bar-content">
+      <div class="status-indicator">
+        <span class="status-pulse"></span>
+        <span class="status-label">NEXUS CLUSTER v5.4: <strong>ONLINE</strong></span>
+      </div>
+      <p class="status-message">Global Inferences: <strong>14.2B Tokens/Sec</strong> &bull; Latency: <strong>1.2ms</strong></p>
+      <a href="#demo" class="status-link">Launch Live Playground &rarr;</a>
+    </div>
+  </div>
+
+  <!-- Futuristic Navigation Bar -->
+  <header class="site-header" id="navbar">
+    <nav class="nav-container container">
+      
+      <!-- Logo with Glowing Core -->
+      <a href="#" class="brand-logo" aria-label="NEXORA AI Home">
+        <span class="logo-core">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+            <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5" stroke="url(#coreGradient)" stroke-width="2" fill="rgba(91, 140, 255, 0.15)"/>
+            <circle cx="12" cy="12" r="3.5" fill="#45D6FF"/>
+            <defs>
+              <linearGradient id="coreGradient" x1="2" y1="2" x2="22" y2="22">
+                <stop offset="0%" stop-color="#45D6FF"/>
+                <stop offset="50%" stop-color="#5B8CFF"/>
+                <stop offset="100%" stop-color="#8B5CF6"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </span>
+        <div class="logo-typography">
+          <span class="logo-title">NEXORA<span class="ai-glow">AI</span></span>
+          <span class="logo-tag">SYNAPSE CORE</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#solutions" class="nav-link">Solutions</a></li>
+        <li><a href="#technology" class="nav-link">Technology</a></li>
+        <li><a href="#applications" class="nav-link">Applications</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <!-- Nav Action Controls -->
+      <div class="nav-actions">
+        <button class="btn btn-glow" id="openAccessModalBtn">
+          <span>Explore AI</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="5" y1="12" x2="19" y2="12"></line>
+            <polyline points="12 5 19 12 12 19"></polyline>
+          </svg>
+        </button>
+
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+          <span class="toggle-bar"></span>
+        </button>
+      </div>
+
+    </nav>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <ul class="mobile-menu-list">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#solutions" class="mobile-nav-link">AI Solutions</a></li>
+        <li><a href="#technology" class="mobile-nav-link">Neural Technology</a></li>
+        <li><a href="#applications" class="mobile-nav-link">Enterprise Applications</a></li>
+        <li><a href="#about" class="mobile-nav-link">About NEXORA</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact Engineering</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <button class="btn btn-glow btn-block" id="mobileAccessBtn">Explore AI Engine</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container hero-grid">
+        
+        <!-- Left: Cinematic Headline & Content -->
+        <div class="hero-content">
+          <div class="badge-glow-pill">
+            <span class="badge-orbit-dot"></span>
+            <span class="badge-text">NEXT-GENERATION AI TECHNOLOGY</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Transforming the Future with<br>
+            <span class="hologram-text">Artificial Intelligence.</span>
+          </h1>
+
+          <p class="hero-description">
+            Unlock new possibilities with intelligent AI solutions designed to accelerate innovation, simplify complex challenges, and empower the next generation of technology.
+          </p>
+
+          <div class="hero-btn-group">
+            <a href="#demo" class="btn btn-glow btn-lg">
+              <span>Discover Our AI</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+            </a>
+            <a href="#solutions" class="btn btn-glass btn-lg">
+              <span>Explore Solutions</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics & Benchmark Trust -->
+          <div class="hero-metrics-row">
+            <div class="metric-item">
+              <span class="metric-value font-mono">1.2<small>ms</small></span>
+              <span class="metric-label">Inference Latency</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-value font-mono">99.8<small>%</small></span>
+              <span class="metric-label">Neural Precision</span>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-item">
+              <span class="metric-value font-mono">10B<small>+</small></span>
+              <span class="metric-label">Daily Computations</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Holographic AI Orb & Neural Telemetry HUD -->
+        <div class="hero-visual">
+          <div class="ai-orb-universe">
+            
+            <!-- Outer Gyroscopic Rings -->
+            <div class="orb-ring ring-outer"></div>
+            <div class="orb-ring ring-middle"></div>
+            <div class="orb-ring ring-inner"></div>
+
+            <!-- Central Luminescent Energy Core -->
+            <div class="orb-core">
+              <div class="orb-core-glow"></div>
+              <div class="orb-core-pulse"></div>
+              <div class="orb-particle-matrix"></div>
+            </div>
+
+            <!-- Floating Glassmorphic Telemetry HUD Card 1 -->
+            <div class="hud-card hud-top-right">
+              <div class="hud-header">
+                <span class="hud-dot live-cyan"></span>
+                <span class="hud-tag">NEURAL STREAM</span>
+              </div>
+              <div class="hud-data font-mono">
+                <strong>4.8 TB/s</strong>
+                <span class="hud-sub">Synapse Throughput</span>
+              </div>
+              <div class="hud-sparkline">
+                <span class="bar b1"></span>
+                <span class="bar b2"></span>
+                <span class="bar b3"></span>
+                <span class="bar b4"></span>
+                <span class="bar b5"></span>
+                <span class="bar b6"></span>
+                <span class="bar b7"></span>
+              </div>
+            </div>
+
+            <!-- Floating HUD Card 2: Quantum Model Active -->
+            <div class="hud-card hud-bottom-left">
+              <div class="hud-icon-box">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#45D6FF" stroke-width="2">
+                  <path d="M12 2v20M2 12h20M4.93 4.93l14.14 14.14M4.93 19.07l14.14-14.14"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="hud-tag">MODEL ENGINE</span>
+                <strong class="hud-title font-mono">Nexus-LLM v5.4</strong>
+                <span class="hud-status-text">Zero-Shot Reasoning: 99.8%</span>
+              </div>
+            </div>
+
+            <!-- Floating HUD Card 3: Autonomous Security -->
+            <div class="hud-card hud-bottom-right">
+              <span class="hud-chip">QUANTUM ENCRYPTED</span>
+              <p class="hud-desc font-mono">256-bit Lattice Guard</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ENTERPRISE PARTNERS MARQUEE TICKER -->
+    <section class="partners-ticker" aria-label="Ecosystem Partners">
+      <div class="container ticker-container">
+        <span class="ticker-prefix">INTEGRATED WITH LEADING PLATFORMS</span>
+        <div class="ticker-track">
+          <span class="partner-item">NVIDIA Inception</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">OpenAI API Ecosystem</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">AWS Bedrock Cloud</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">Hugging Face Transformers</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">Google Cloud AI Vertex</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">Kubernetes Neural Mesh</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">NVIDIA Inception</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">OpenAI API Ecosystem</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">AWS Bedrock Cloud</span>
+          <span class="ticker-dot">&bull;</span>
+          <span class="partner-item">Hugging Face Transformers</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT NEXORA AI SECTION -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          
+          <!-- Left: Narrative & Philosophy -->
+          <div class="about-content">
+            <span class="section-tag">ARCHITECTING TOMORROW</span>
+            <h2 class="section-title">
+              Intelligence that moves<br>
+              <span class="text-gradient">the world forward.</span>
+            </h2>
+
+            <p class="about-lead">
+              NEXORA AI combines advanced artificial intelligence with creative thinking to build smarter solutions for modern businesses and everyday challenges.
+            </p>
+
+            <p class="about-text">
+              We envision a world where autonomous intelligence complements human potential. Our proprietary neural core combines deep learning transformers, real-time sensory perception, and continuous federated learning to unlock unprecedented enterprise efficiency.
+            </p>
+
+            <!-- 3 Core Tenets -->
+            <div class="about-pillars">
+              <div class="pillar-box">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#45D6FF" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 6v6l4 2"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Radical Innovation</h4>
+                  <p class="pillar-desc">Pioneering hybrid transformer architectures with multi-agent reflection protocols.</p>
+                </div>
+              </div>
+
+              <div class="pillar-box">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B8CFF" stroke-width="2">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Intelligent Automation</h4>
+                  <p class="pillar-desc">Self-optimizing autonomous pipelines that streamline mission-critical business logic.</p>
+                </div>
+              </div>
+
+              <div class="pillar-box">
+                <div class="pillar-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2">
+                    <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="pillar-title">Future Technology</h4>
+                  <p class="pillar-desc">Built for quantum readiness, edge execution, and sub-millisecond edge latency.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Right: Visual Neural Architecture Display -->
+          <div class="about-visual-side">
+            <div class="cyber-card architecture-card">
+              <div class="card-glass-header">
+                <div class="dots-trio">
+                  <span></span><span></span><span></span>
+                </div>
+                <span class="card-terminal-title font-mono">nexora-kernel --status</span>
+              </div>
+              <div class="architecture-body font-mono">
+                <div class="code-line"><span class="c-cyan">&gt;</span> Initializing Synapse Distributed Mesh... <span class="c-green">[OK]</span></div>
+                <div class="code-line"><span class="c-cyan">&gt;</span> Calibrating 128 Attention Heads... <span class="c-green">[100%]</span></div>
+                <div class="code-line"><span class="c-cyan">&gt;</span> Loading Vector Embeddings: <span class="c-violet">1.4 Trillion Tokens</span></div>
+                <div class="code-line"><span class="c-cyan">&gt;</span> Zero-Knowledge Privacy Shields: <span class="c-green">ACTIVE</span></div>
+                
+                <div class="neural-nodes-canvas">
+                  <div class="node node-1"><span>Input</span></div>
+                  <div class="node-arrow">&rarr;</div>
+                  <div class="node node-2"><span>Neural Transformer</span></div>
+                  <div class="node-arrow">&rarr;</div>
+                  <div class="node node-3"><span>Cognitive Action</span></div>
+                </div>
+
+                <div class="code-stats-grid">
+                  <div class="stat-block">
+                    <small>QUANTUM EFFICIENCY</small>
+                    <strong>99.98%</strong>
+                  </div>
+                  <div class="stat-block">
+                    <small>SECURITY GRADE</small>
+                    <strong>ISO / SOC-3</strong>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- AI SOLUTIONS SECTION -->
+    <section class="solutions-section" id="solutions">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">INTELLIGENCE MATRIX</span>
+          <h2 class="section-title">Engineered for Next-Level Scale</h2>
+          <p class="section-description">
+            Explore our suite of production-ready AI solutions built to empower organizations to outpace market velocity.
+          </p>
+        </div>
+
+        <!-- 6 Solution Cards Grid -->
+        <div class="solutions-grid">
+          
+          <!-- Solution 1: AI Automation -->
+          <article class="solution-card">
+            <div class="solution-glow-bg"></div>
+            <div class="solution-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#45D6FF" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+            </div>
+            <span class="solution-num font-mono">01 // AUTOMATION</span>
+            <h3 class="solution-title">AI Automation</h3>
+            <p class="solution-desc">
+              Automate repetitive workflows and improve productivity with autonomous cognitive agents that execute cross-system tasks without human friction.
+            </p>
+            <div class="solution-perk font-mono">&bull; 85% Process Velocity Gain</div>
+          </article>
+
+          <!-- Solution 2: Intelligent Analytics -->
+          <article class="solution-card">
+            <div class="solution-glow-bg"></div>
+            <div class="solution-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#5B8CFF" stroke-width="2">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+                <circle cx="12" cy="4" r="2"></circle>
+              </svg>
+            </div>
+            <span class="solution-num font-mono">02 // DATA ENGINE</span>
+            <h3 class="solution-title">Intelligent Analytics</h3>
+            <p class="solution-desc">
+              Turn complex data into useful insights with predictive real-time pattern recognition, anomaly detection, and automated natural language reporting.
+            </p>
+            <div class="solution-perk font-mono">&bull; Real-time Multi-tenant Ingestion</div>
+          </article>
+
+          <!-- Solution 3: AI Assistants -->
+          <article class="solution-card">
+            <div class="solution-glow-bg"></div>
+            <div class="solution-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                <circle cx="9" cy="10" r="1"></circle>
+                <circle cx="15" cy="10" r="1"></circle>
+              </svg>
+            </div>
+            <span class="solution-num font-mono">03 // COGNITIVE UI</span>
+            <h3 class="solution-title">AI Assistants</h3>
+            <p class="solution-desc">
+              Build intelligent digital assistants for everyday tasks that understand nuanced context, multi-turn dialogue, and execute programmatic actions.
+            </p>
+            <div class="solution-perk font-mono">&bull; 40+ Language Native Support</div>
+          </article>
+
+          <!-- Solution 4: Machine Learning -->
+          <article class="solution-card">
+            <div class="solution-glow-bg"></div>
+            <div class="solution-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#45D6FF" stroke-width="2">
+                <circle cx="6" cy="6" r="3"></circle>
+                <circle cx="18" cy="18" r="3"></circle>
+                <circle cx="18" cy="6" r="3"></circle>
+                <circle cx="6" cy="18" r="3"></circle>
+                <line x1="8.5" y1="7.5" x2="15.5" y2="16.5"></line>
+                <line x1="8.5" y1="16.5" x2="15.5" y2="7.5"></line>
+              </svg>
+            </div>
+            <span class="solution-num font-mono">04 // PREDICTIVE</span>
+            <h3 class="solution-title">Machine Learning</h3>
+            <p class="solution-desc">
+              Create smarter predictive systems tailored to your proprietary datasets with automated fine-tuning, continuous reinforcement, and zero data leakage.
+            </p>
+            <div class="solution-perk font-mono">&bull; RLHF &amp; Direct Preference Fine-Tuning</div>
+          </article>
+
+          <!-- Solution 5: Computer Vision -->
+          <article class="solution-card">
+            <div class="solution-glow-bg"></div>
+            <div class="solution-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#5B8CFF" stroke-width="2">
+                <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+            </div>
+            <span class="solution-num font-mono">05 // VISUAL SYNAPSE</span>
+            <h3 class="solution-title">Computer Vision</h3>
+            <p class="solution-desc">
+              Transform images and visual information into intelligence with real-time semantic segmentation, optical character extraction, and 3D object tracking.
+            </p>
+            <div class="solution-perk font-mono">&bull; 120 FPS Real-time Stream Analytics</div>
+          </article>
+
+          <!-- Solution 6: AI Integration -->
+          <article class="solution-card">
+            <div class="solution-glow-bg"></div>
+            <div class="solution-icon-box">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+                <line x1="12" y1="2" x2="12" y2="22"></line>
+              </svg>
+            </div>
+            <span class="solution-num font-mono">06 // ARCHITECTURE</span>
+            <h3 class="solution-title">AI Integration</h3>
+            <p class="solution-desc">
+              Connect intelligent tools with modern business workflows via universal REST/GraphQL endpoints, Python SDKs, and enterprise webhooks.
+            </p>
+            <div class="solution-perk font-mono">&bull; SDKs for Python, Node, Go &amp; Rust</div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERACTIVE LIVE AI CONSOLE / TECHNOLOGY PLAYGROUND -->
+    <section class="technology-section" id="technology">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">NEURAL PLAYGROUND</span>
+          <h2 class="section-title">Test the NEXORA Synapse Core</h2>
+          <p class="section-description">
+            Experience sub-second reasoning and multimodal synthesis live. Select a prompt or type your query below.
+          </p>
+        </div>
+
+        <div class="interactive-console" id="demo">
+          <!-- Terminal Header -->
+          <div class="console-top-bar">
+            <div class="t-controls">
+              <span class="t-dot red"></span>
+              <span class="t-dot yellow"></span>
+              <span class="t-dot green"></span>
+            </div>
+            <div class="t-status-pill font-mono">
+              <span class="blink-dot"></span> MODEL: NEXORA-OMNI-5.4
+            </div>
+            <div class="t-badge font-mono">GPU: NVIDIA H100 80GB CLUSTER</div>
+          </div>
+
+          <!-- Prompt Presets -->
+          <div class="prompt-chips">
+            <span class="chips-label">Preset Workflows:</span>
+            <button class="chip-btn active" data-prompt="Analyze global market telemetry and synthesize 3-year risk vectors.">📈 Market Telemetry</button>
+            <button class="chip-btn" data-prompt="Generate autonomous Python microservice with automated failover and telemetry.">⚙️ Microservice Architect</button>
+            <button class="chip-btn" data-prompt="Inspect multimodal MRI medical scan and isolate cellular anomalies.">🔬 Multimodal Vision Scan</button>
+            <button class="chip-btn" data-prompt="Formulate self-healing cybersecurity firewall rules for zero-day mitigation.">🛡️ Cyber Defense Vector</button>
+          </div>
+
+          <!-- Console Terminal Output Body -->
+          <div class="console-screen font-mono" id="consoleScreen">
+            <div class="console-prompt-line">
+              <span class="c-prompt">user@nexora:~$</span>
+              <span class="c-input-echo" id="promptDisplay">Analyze global market telemetry and synthesize 3-year risk vectors.</span>
+            </div>
+            <div class="console-stream-output" id="streamOutput">
+              <span class="ai-prefix">[NEXORA-SYNAPSE]:</span>
+              <p class="stream-text" id="streamText">
+                Synthesizing multi-dimensional risk matrix across 48 global indices... Initializing latent probabilistic graph. Risk variance bounded at 2.4%. Recommendation: Deploy automated hedge protocol in parallel with algorithmic currency stabilization reserves.
+              </p>
+              <span class="typing-cursor"></span>
+            </div>
+          </div>
+
+          <!-- Interactive Input Line -->
+          <form class="console-input-bar" id="consoleForm">
+            <span class="input-symbol font-mono">&gt;</span>
+            <input 
+              type="text" 
+              id="customPromptInput" 
+              placeholder="Ask NEXORA AI to compute, automate, or synthesize anything..."
+              aria-label="Enter AI prompt"
+            >
+            <button type="submit" class="btn btn-glow btn-sm">
+              <span>Execute Synapse</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- INDUSTRY APPLICATIONS SECTION -->
+    <section class="applications-section" id="applications">
+      <div class="container">
+        
+        <div class="section-header text-center">
+          <span class="section-tag">REAL-WORLD IMPACT</span>
+          <h2 class="section-title">Powering Tomorrow's Industries</h2>
+          <p class="section-description">
+            Deployed in mission-critical environments where precision, compliance, and velocity cannot be compromised.
+          </p>
+        </div>
+
+        <div class="apps-grid">
+          
+          <div class="app-card">
+            <div class="app-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#45D6FF" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                <path d="M2 12h20"></path>
+              </svg>
+            </div>
+            <h3 class="app-title">Autonomous Mobility</h3>
+            <p class="app-desc">
+              Real-time spatial perception and trajectory prediction algorithms powering next-generation self-driving fleets and aerial logistics.
+            </p>
+            <span class="app-metric font-mono">99.999% Reliability Rate</span>
+          </div>
+
+          <div class="app-card">
+            <div class="app-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#5B8CFF" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <h3 class="app-title">Precision Healthcare</h3>
+            <p class="app-desc">
+              Diagnostic multi-modal imaging assistants assisting oncologists to identify sub-millimeter tissue anomalies years ahead of traditional scans.
+            </p>
+            <span class="app-metric font-mono">3.4x Earlier Detection</span>
+          </div>
+
+          <div class="app-card">
+            <div class="app-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8B5CF6" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3 class="app-title">Quantitative Fintech</h3>
+            <p class="app-desc">
+              High-frequency sentiment synthesis, automated fraud prevention, and real-time sovereign bond portfolio rebalancing in micro-seconds.
+            </p>
+            <span class="app-metric font-mono">&lt; 0.8ms Trade Execution</span>
+          </div>
+
+          <div class="app-card">
+            <div class="app-card-icon">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#45D6FF" stroke-width="2">
+                <rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect>
+                <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+              </svg>
+            </div>
+            <h3 class="app-title">Zero-Day Cyber Defense</h3>
+            <p class="app-desc">
+              Self-healing enterprise security meshes that detect hostile telemetry, quarantine malicious payloads, and rewrite defensive firewall protocols instantly.
+            </p>
+            <span class="app-metric font-mono">Zero Breach Incident Guarantee</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT & EARLY ACCESS SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        
+        <div class="contact-card-frame">
+          <div class="contact-grid">
+            
+            <div class="contact-info">
+              <span class="section-tag">CONNECT TO SYNAPSE</span>
+              <h2 class="contact-title">
+                Ready to accelerate<br>
+                <span class="text-gradient">your enterprise?</span>
+              </h2>
+              <p class="contact-lead">
+                Join Fortune 500 engineering leaders and cutting-edge research labs deploying NEXORA AI models in production.
+              </p>
+
+              <div class="contact-points">
+                <div class="c-point">
+                  <div class="c-point-icon">&check;</div>
+                  <div>
+                    <strong>Dedicated GPU Cluster Access</strong>
+                    <span>Guaranteed H100/B200 compute reservations</span>
+                  </div>
+                </div>
+                <div class="c-point">
+                  <div class="c-point-icon">&check;</div>
+                  <div>
+                    <strong>Enterprise SOC-2 Compliance</strong>
+                    <span>Air-gapped VPCs and on-premise model weights</span>
+                  </div>
+                </div>
+                <div class="c-point">
+                  <div class="c-point-icon">&check;</div>
+                  <div>
+                    <strong>24/7 AI Research Engineers</strong>
+                    <span>Direct Slack/Teams channel with research teams</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Interactive Consultation Form -->
+            <div class="contact-form-side">
+              <form class="cyber-form" id="contactForm">
+                <h3 class="form-title">Request Enterprise Access</h3>
+                
+                <div class="form-group">
+                  <label for="cName">Full Name</label>
+                  <input type="text" id="cName" placeholder="Dr. Elena Rostova" required>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="cEmail">Work Email</label>
+                    <input type="email" id="cEmail" placeholder="elena@enterprise.com" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="cCompany">Company Name</label>
+                    <input type="text" id="cCompany" placeholder="Deep Labs Inc." required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="cScope">Primary AI Requirement</label>
+                  <select id="cScope" required>
+                    <option value="automation">Autonomous Workflow Automation</option>
+                    <option value="analytics">Intelligent Big Data Analytics</option>
+                    <option value="assistants">Custom Enterprise AI Assistants</option>
+                    <option value="vision">Computer Vision &amp; Spatial Models</option>
+                    <option value="finetune">Proprietary Model Fine-Tuning</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="cNotes">Project Scope / Technical Notes</label>
+                  <textarea id="cNotes" rows="3" placeholder="Describe your data volume, latency thresholds, and deployment goals..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-glow btn-block" id="formSubmitBtn">
+                  <span>Initialize AI Key Generation</span>
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                    <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+
+              <div class="form-success-banner" id="formSuccess">
+                <div class="success-glyph">&check;</div>
+                <div>
+                  <strong>Synapse Credentials Generated!</strong>
+                  <p>Our research engineer will reach out via encrypted link with your trial API keys.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- EXPLORE AI / EARLY ACCESS MODAL DIALOG -->
+  <div class="modal-backdrop" id="accessModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-brand">
+          <span class="logo-core small-core">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+              <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5" stroke="#45D6FF" stroke-width="2"/>
+              <circle cx="12" cy="12" r="3" fill="#8B5CF6"/>
+            </svg>
+          </span>
+          <h3 class="modal-title font-mono">NEXORA SYNAPSE // ACCESS</h3>
+        </div>
+        <button class="modal-close" id="closeModalBtn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <h4>Experience the Model Playground</h4>
+        <p class="modal-sub">Generate sandbox credentials to evaluate NEXORA Omni-5.4 models directly in your terminal or IDE.</p>
+
+        <form class="modal-form" id="quickAccessForm">
+          <div class="form-group">
+            <label for="quickEmail">Developer / Corporate Email</label>
+            <input type="email" id="quickEmail" placeholder="developer@domain.com" required>
+          </div>
+          <button type="submit" class="btn btn-glow btn-block">Generate Sandbox Token</button>
+        </form>
+
+        <div class="modal-token-box" id="tokenBox">
+          <span class="token-label font-mono">SANDBOX_TOKEN:</span>
+          <code class="token-code font-mono" id="tokenCode">nex_live_99f2b842a170884d6c</code>
+          <button class="btn-copy-token" id="copyTokenBtn">Copy Token</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- FLOATING QUICK TOAST NOTIFICATION -->
+  <div class="toast-bubble" id="nexoraToast" role="alert" aria-live="polite">
+    <div class="toast-inner">
+      <span class="toast-icon-pulse">&bull;</span>
+      <span class="toast-msg" id="toastMessage">Synapse neural stream initiated</span>
+    </div>
+  </div>
+
+  <!-- FUTURISTIC SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      
+      <div class="footer-grid">
+        <!-- Brand Info -->
+        <div class="footer-col brand-col">
+          <a href="#" class="brand-logo footer-logo">
+            <span class="logo-core">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
+                <polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5" stroke="#45D6FF" stroke-width="2"/>
+                <circle cx="12" cy="12" r="3" fill="#8B5CF6"/>
+              </svg>
+            </span>
+            <span class="logo-title">NEXORA<span class="ai-glow">AI</span></span>
+          </a>
+          <p class="footer-tagline">&ldquo;Intelligence. Beyond Limits.&rdquo;</p>
+          <p class="footer-bio">
+            Pioneering artificial general intelligence platforms and distributed multi-agent systems designed for the next epoch of computational progress.
+          </p>
+          <div class="status-live-pill font-mono">
+            <span class="green-dot"></span> ALL SYSTEMS OPERATIONAL &bull; 99.99%
+          </div>
+        </div>
+
+        <!-- Links 1 -->
+        <div class="footer-col">
+          <h4 class="footer-title font-mono">PLATFORM</h4>
+          <ul class="footer-links font-mono">
+            <li><a href="#solutions">Synapse Engine</a></li>
+            <li><a href="#technology">Neural Playground</a></li>
+            <li><a href="#applications">Enterprise Mesh</a></li>
+            <li><a href="#">Model Zoo (v5.4)</a></li>
+            <li><a href="#">Python SDK Docs</a></li>
+          </ul>
+        </div>
+
+        <!-- Links 2 -->
+        <div class="footer-col">
+          <h4 class="footer-title font-mono">RESEARCH</h4>
+          <ul class="footer-links font-mono">
+            <li><a href="#">Whitepapers &amp; Benchmarks</a></li>
+            <li><a href="#">Safety Alignment</a></li>
+            <li><a href="#">Quantum AI Roadmap</a></li>
+            <li><a href="#">Federated Privacy</a></li>
+            <li><a href="#">Open Weights Hub</a></li>
+          </ul>
+        </div>
+
+        <!-- Links 3 -->
+        <div class="footer-col">
+          <h4 class="footer-title font-mono">SUBSCRIBE</h4>
+          <p class="footer-sub-text">Receive monthly research updates and model release notifications.</p>
+          <form class="footer-newsletter" id="newsletterForm">
+            <div class="newsletter-group">
+              <input type="email" placeholder="researcher@lab.org" required>
+              <button type="submit" aria-label="Subscribe">&rarr;</button>
+            </div>
+            <span class="newsletter-confirm" id="newsletterConfirm">&check; Subscribed to Research Feed.</span>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Footer Bottom -->
+      <div class="footer-bottom">
+        <p>&copy; 2026 NEXORA AI Technologies Inc. All rights reserved.</p>
+        <div class="footer-credits">
+          <a href="#">Privacy Protocol</a>
+          <span class="sep">&bull;</span>
+          <a href="#">Terms of Synapse</a>
+          <span class="sep">&bull;</span>
+          <span>Web Development Activity Project</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
